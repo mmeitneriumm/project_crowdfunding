@@ -22,7 +22,7 @@ const Profile = () => {
 
   return (
     <DisplayCampaigns 
-      title="All Campaigns"
+      title="Мои кампании"
       isLoading={isLoading}
       campaigns={campaigns}
     />
