@@ -44,7 +44,7 @@ const CreateCampaign = () => {
     <div className="bg-[#fff] shadow-[4px_2px_20px_4px_rgba(0,0,0,0.1)] dark:bg-[#1c1c24] flex justify-center items-center flex-col rounded-[10px] sm:p-10 p-4 z-10 animate-[fade-in_1s_ease-in-out]">
       {isLoading && <Loader />}
       <div className="flex justify-center items-center p-[16px] sm:min-w-[380px] bg-[#fff] dark:bg-[#3a3a43] rounded-[10px]">
-        <h1 className="font-epilogue font-bold sm:text-[25px] text-[18px] leading-[38px] text-black dark:text-white">Начать кампанию</h1>
+        <h1 className="font-kanit font-bold sm:text-[25px] text-[18px] leading-[38px] text-black dark:text-white">Начать кампанию</h1>
       </div>
 
       <form onSubmit={handleSubmit} className="w-full mt-[65px] flex flex-col gap-[30px]">
@@ -76,7 +76,7 @@ const CreateCampaign = () => {
 
         <div className="w-full flex justify-start items-center p-4 bg-[#ab66ff] h-[120px] rounded-[10px]">
           <img src={money} alt="money" className="w-[40px] h-[40px] object-contain"/>
-          <h4 className="font-epilogue font-bold text-[25px] text-white ml-[20px]">Билдер заберет только 2% от общей суммы</h4>
+          <h4 className="font-kanit font-bold text-[25px] text-white ml-[20px]">Билдер заберет только 2% от общей суммы</h4>
         </div>
 
         <div className="flex flex-wrap gap-[40px]">
